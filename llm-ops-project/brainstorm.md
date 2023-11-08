@@ -49,7 +49,11 @@ IMPORTANT: This is just a brainstorm, not a plan. You need to think creative and
 
 # Requirement Documentation (In progress, need further supplementation)
 
-[Insert refined requirement here]
+## Background and Introduction
+
+## User Stories
+
+## 
 
 # For you to do
 

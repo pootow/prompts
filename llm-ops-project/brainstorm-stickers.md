@@ -11,7 +11,3 @@ The motivation of evaluating open source LLMs is that customers want to have the
 
 Once we have a clearer picture of these aspects, we can draft comprehensive requirement documentation. This is very important to me.
 
-
-# outlines of requirement docs
-
-
