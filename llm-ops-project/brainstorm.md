@@ -2,6 +2,7 @@
 
 I want to develop a platform for
 
+* Model registry - a database for model meta data, and management of local models (download, remove, etc.)
 * Evaluating open source LLMs
 * Training of fine tuning the model to fit custom needs
 * Deploying models for inferencing both on premise and cloud
@@ -46,7 +47,7 @@ Workloads often comes as workflows, from the perspective workflow:
 
 IMPORTANT: This is just a brainstorm, not a plan. You need to think creative and refine it with me.
 
-# Requirement Documentation
+# Requirement Documentation (In progress, need further supplementation)
 
 [Insert refined requirement here]
 
