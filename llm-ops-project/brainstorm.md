@@ -106,6 +106,8 @@ All above is based on the assumption that we are developing a product for in hou
   - agent leaderboard
   - unlike agents based on OpenAI models, agents based on opensource models need to combine prompts with specific model configurations and even specific sampler configurations
 
+Another interesting idea is to develop an agent (or a so-called copilot) to help people to use this platform. And use this as a demo to show all the features of the platform.
+
 IMPORTANT: This is just a brainstorm, not a plan. You need to think creative and refine it with me.
 
 ## Requirement Documentation (In progress, need further supplementation)
