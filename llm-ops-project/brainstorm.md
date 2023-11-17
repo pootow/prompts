@@ -1,4 +1,16 @@
-# Background
+# Brainstorm for Project "DemoAI"
+
+## Background
+
+OpenAI's GPTs hold significant importance, yet they rely on proprietary data and models. In today's landscape, private data stands out as the most valuable asset, compelling companies to create their own models and platforms to manage the entire data-to-model-to-agent workflow. This represents the prevailing direction in the field.
+
+Furthermore, aside from fostering innovation and progress, open-source platforms also champion data privacy. By granting users control over their data and its utilization, these models play a vital role in upholding privacy standards. This underscores why the shift towards open-source AI is not merely a passing trend but an imperative for the future of AI development.
+
+While open-source platforms and communities like HuggingFace facilitate AI innovators in sharing their models, they may fall short, especially for non-AI companies. Existing products tend to be complex and disjointed, posing entry barriers. For instance, while they excel in model sharing, they may lack support for tasks such as advanced dataset preparation methods like self-instruction, model evaluation on custom datasets, and even comprehensive model metadata.
+
+Other platforms focused on agents are commendable, but they don't necessarily endorse open-source principles. As prompts have become the new code, we believe that the open-sourcing of prompts has naturally become the "new open-source" done right.
+
+I want to build a platform to help companies to build their own models and agents. This is a very ambitious project. I need to start with a minimum viable product (MVP) and then gradually add more features. I need to brainstorm with you to define the MVP.
 
 I want to develop a platform for
 
