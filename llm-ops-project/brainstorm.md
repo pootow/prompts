@@ -19,6 +19,8 @@ I want to develop a platform for
 * Training of fine tuning the model to fit custom needs
 * Deploying models for inferencing both on premise and cloud
 * Helping customer to integrate LLMs into their own workflows
+* Helping customer to develop their own agents
+* share prompts and agents (reproducibility is the key)
 
 # Brainstorm
 
@@ -56,6 +58,19 @@ Workloads often comes as workflows, from the perspective workflow:
   - retrain model
   - evaluate model / regression test
   - deploy model
+
+For bleeding edge trends, we need to support AI agents.
+
+* Evaluation
+  - Agent models
+  - Agent frameworks
+  - datasets for evaluation
+* Agent Management
+  - Agent store
+* Agent workspace
+  - runtime/execution environment
+  - history management
+    * history fork
 
 IMPORTANT: This is just a brainstorm, not a plan. You need to think creative and refine it with me.
 
