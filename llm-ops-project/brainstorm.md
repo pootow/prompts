@@ -22,6 +22,8 @@ I want to develop a platform for
 * Helping customer to develop their own agents
 * share prompts and agents (reproducibility is the key)
 
+This is a very ambitious project. I need to start with a minimum viable product (MVP) and then gradually add more features. I need to brainstorm with you to define the MVP.
+
 ## Brainstorm
 
 Points above is from user's perspective. But from implementation perspective, I'll brainstorm some key ideas:
@@ -71,6 +73,38 @@ For bleeding edge trends, we need to support AI agents.
   - runtime/execution environment
   - history management
     * history fork
+
+For professionalization, we need to support best practices and effective techniques from newst research papers.
+
+* self-instruct support
+* hallucination prevention
+
+For implementation, we need to consider:
+
+* abstraction layer for supporting multiple frameworks
+  * support multiple LLM frameworks
+  * support multiple agent frameworks
+  * support multiple RAG frameworks
+* support various inference technologies
+  - lamma.cpp
+  - quantization
+  - etc.
+
+All above is based on the assumption that we are developing a product for in house use. But if we step further, we can develop a product for public use and emphasis on opensource. In this case, we need to consider:
+
+* model sharing
+  - model registry
+    * model meta data
+    * model configuration sharing
+      - sampler configuration
+      - model instruction template
+  - public model learderboard
+    * closed source beachmark dataset
+    * model arena
+* agent sharing (emphasis on opensource)
+  - agent hub
+  - agent leaderboard
+  - unlike agents based on OpenAI models, agents based on opensource models need to combine prompts with specific model configurations and even specific sampler configurations
 
 IMPORTANT: This is just a brainstorm, not a plan. You need to think creative and refine it with me.
 
