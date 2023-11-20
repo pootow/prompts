@@ -35,17 +35,33 @@ Points above is from user's perspective. But from implementation perspective, I'
     * data cleaning
     * data argumentation
     * self-instruct
+    * Consider incorporating feature engineering for text data preprocessing, such as tokenization, stopword removal, stemming, and lemmatization.
     * etc.
 * For evaluation
   - A module to compute metrics like perplexity, EM, etc.
   - Visualization tools to plot loss/metric curves during training
   - custom model arena
+  - Integration with popular benchmarks and evaluation datasets
+  - Ability to compare multiple models side by side for easy comparison
 * For advanced model development and research
-  - model parameter visualization
-    * to see for example, if there is parameter explosion
-    * which neurons are activated
-    * just like scanning of human brain
+  - Model explainability tools to help users understand why the model made certain predictions
+  - Support for federated learning and distributed training scenarios
+    - model parameter visualization
+      * to see for example, if there is parameter explosion
+      * which neurons are activated
+      * just like scanning of human brain
+  - training monitoring and analysis
+    * to see if the model is overfitting
+    * training loss prediction and other predictions
+  - hyperparameter suggestion
 * For deployment, dockerizing the model would be a good idea
+* For integration, we should think the spectrum of integration:
+  - from low level integration, like integrating with a specific framework
+    * what is the interface between the intelligent system and the non-intelligent system?
+      - patterns [need more use case study]:
+        * the programatic system submit a request to the intelligent system, and the intelligent system would callback the programatic system
+  - to high level integration, like integrating with a specific application
+  - to integration with a specific workflow
 
 Workloads often comes as workflows, from the perspective workflow:
 
